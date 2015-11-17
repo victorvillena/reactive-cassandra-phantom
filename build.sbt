@@ -17,10 +17,6 @@ scalacOptions := Seq("-deprecation", "-target:jvm-1.8", "-encoding", "utf-8")
 
 javacOptions := Seq("-g:none")
 
-resolvers ++= Seq(
-  Resolver.bintrayRepo("websudos", "oss-releases")
-)
-
 libraryDependencies ++= {
   Seq(
     Akka.actor,
