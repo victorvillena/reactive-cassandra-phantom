@@ -46,8 +46,4 @@ PhantomSbtPlugin.projectSettings
 
 publishArtifact in (Test, packageDoc) := false
 
-bintrayOrganization := Some("tecsisa")
-
-bintrayRepository := "maven-bintray-repo"
-
 scalariformSettings
