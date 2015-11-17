@@ -12,7 +12,7 @@ object Deps {
 
   object Akka {
     val AkkaVersion = "2.4.0"
-    val AkkaStreamVersion = "1.0"
+    val AkkaStreamVersion = "2.0-M1"
     val actor = apply("actor")
     val slf4j = apply("slf4j")
 
@@ -23,7 +23,7 @@ object Deps {
     val dsl = apply("dsl")
     val testkit = apply("testkit") % "test"
 
-    private def apply(moduleName: String) = "com.websudos" %% s"phantom-$moduleName" % "1.12.2"
+    private def apply(moduleName: String) = "com.websudos" %% s"phantom-$moduleName" % "1.15.0"
   }
 
   object Testing {
