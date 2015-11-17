@@ -4,10 +4,7 @@ name := "reactive-cassandra-phantom"
 
 organization := "com.tecsisa"
 
-// Versioning with git
-enablePlugins(GitVersioning)
-
-git.useGitDescribe := true
+version := "0.0.8b-SNAPSHOT"
 
 scalaVersion := "2.11.7"
 
@@ -30,8 +27,6 @@ libraryDependencies ++= {
 }
 
 parallelExecution in Test := false
-
-publishMavenStyle := true
 
 scmInfo := Some(ScmInfo(url("https://github.com/Tecsisa/reactive-cassandra-phantom.git"),
                             "git@github.com:Tecsisa/reactive-cassandra-phantom.git"))
